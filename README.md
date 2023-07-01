@@ -24,3 +24,4 @@ example: *tfplan*
 8) Ignore CLI configuration files
 
 new line
+new line 2
