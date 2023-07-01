@@ -22,3 +22,5 @@ are not checked in
 example: *tfplan*
 
 8) Ignore CLI configuration files
+
+new line
