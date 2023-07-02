@@ -55,14 +55,13 @@ $ git log -S"func providerSource(" --pretty=oneline
 8c928e83589d90a031f811fae52a81be7153e82f main: Consult local directories as potential mirrors of providers
 ```
 5) Найдите все коммиты, в которых была изменена функция globalPluginDirs
+```
+$ git log -L :globalPluginDirs:plugins.go | grep 'commit.*'
 commit 78b12205587fe839f10d946ea3fdc06719decb05
 commit 52dbf94834cb970b510f2fba853a5b49ad9b1a46
 commit 41ab0aef7a0fe030e84018973a64135b11abcd70
 commit 66ebff90cdfaa6938f26f908c7ebad8d547fea17
 commit 8364383c359a6b738a436d1b7745ccdce178df47
-
-```
-git log -L :globalPluginDirs:plugins.go | grep 'commit.*'
 ```
 
 6) Кто автор функции synchronizedWriters?
