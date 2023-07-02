@@ -12,14 +12,14 @@
 # GIT Instruments
 
 Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea.
-
+```
 $ git show aefea
 commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
 Date:   Thu Jun 18 10:29:58 2020 -0400
 
     Update CHANGELOG.md
-
+```
 Вопросы:
 
 1) Какому тегу соответствует коммит 85024d3?
@@ -65,7 +65,7 @@ commit 8364383c359a6b738a436d1b7745ccdce178df47
 git log -L :globalPluginDirs:plugins.go | grep 'commit.*'
 ```
 
-6)Кто автор функции synchronizedWriters?
+6) Кто автор функции synchronizedWriters?
 
 Martin Atkins
 
