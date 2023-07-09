@@ -119,10 +119,12 @@ export PATH="/home/vagrant/new_path_directory:$PATH"
 ```
 * Перезагрузил виртуальную машину
 * Команда отрабатывает корректно:
+```
 vagrant@vagrant:~$ type -a bash
 bash is /home/vagrant/new_path_directory/bash
 bash is /usr/bin/bash
 bash is /bin/bash
+```
 
 `Чем отличается планирование команд с помощью batch и at?`
 
