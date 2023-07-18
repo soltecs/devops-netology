@@ -71,30 +71,30 @@ Docker или OpenVZ
 3. >Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown. 
 - Vagrant
 ```bash
-Yuri Rykov@LAPTOP-8MPAJ0JR MINGW64 ~
-$ vagrant --version
+yurykov@yurykov:~/Downloads$ vagrant --version
 Vagrant 2.3.7
 ```
 - Terraform
 ```bash
-Yuri Rykov@LAPTOP-8MPAJ0JR MINGW64 ~
-$ terraform --version
+yurykov@yurykov:~/Downloads$ terraform --version
 Terraform v1.5.3
-on windows_amd64
+on linux_amd64
 ```
 - Virtualbox
 ```bash
-PS C:\Users\Yuri Rykov> vboxmanage --version
-7.0.8r156879
+yurykov@yurykov:~/Downloads$ vboxmanage --version
+7.0.10r158379
 ```
 - Ansible
 ```bash
-Yuri Rykov@LAPTOP-8MPAJ0JR ~
-$ ansible --version
-ansible 2.8.4
+yurykov@yurykov:~/Downloads$ ansible --version
+ansible [core 2.14.6]
   config file = /etc/ansible/ansible.cfg
-  configured module search path = ['/home/Yuri Rykov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-  ansible python module location = /usr/lib/python3.7/site-packages/ansible
+  configured module search path = ['/home/yurykov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  ansible collection location = /home/yurykov/.ansible/collections:/usr/share/ansible/collections
   executable location = /usr/bin/ansible
-  python version = 3.7.12 (default, Nov 23 2021, 18:58:07) [GCC 11.2.0]
+  python version = 3.10.6 (main, May 29 2023, 11:10:38) [GCC 11.3.0] (/usr/bin/python3)
+  jinja version = 3.0.3
+  libyaml = True
 ```
